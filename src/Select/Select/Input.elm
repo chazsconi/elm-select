@@ -182,7 +182,7 @@ view config model items selected =
         div [ class rootClasses, style rootStyles ]
             [ input
                 ([ class inputClasses
-                 , autocomplete False
+                 , attribute "autocomplete" "new-password" -- for chrome
                  , attribute "autocorrect" "off" -- for mobile Safari
                  , onBlurAttribute config model
                  , onKeyUpAttribute preselectedItem

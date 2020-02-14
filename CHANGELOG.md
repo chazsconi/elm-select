@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.15.2 (CB fork)
+
+- Add `new-password` for `autocomplete` attribute for chrome
+
 ## 2.15.1
 
 - The `withOnQuery` callback takes in account `withTransformQuery`
